@@ -2,8 +2,6 @@ from config import Config
 from services.openweather_api import fetch_weather
 import time
 
-
-
 # zapis do excel
 # zapis do db
 # zapis wykresy i interfejs
