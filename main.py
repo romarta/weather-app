@@ -13,7 +13,5 @@ while True:
     save_record(weather)
     time.sleep(5)
 
-
-
 # zapis do db
 # zapis wykresy i interfejs
