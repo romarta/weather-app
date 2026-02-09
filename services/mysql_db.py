@@ -32,3 +32,11 @@ def save_record(data):
 
     cursor.execute(query, variables)
     conn.commit()
+
+def all_weather_records():
+    conn = create_connection()
+    cursor = conn.cursor(dictionary=True)
+
+    query = "SELECT * FROM weather_records"
+    cursor.execute(query)
+    return cursor.fetchall()
